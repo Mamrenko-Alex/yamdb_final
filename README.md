@@ -1,4 +1,4 @@
-[![Status workflow](https://github.com/DeffronMax/yamdb_final/actions/workflows/main.yml/badge.svg)]
+![Status workflow](https://github.com/DeffronMax/yamdb_final/actions/workflows/main.yml/badge.svg)
 
 ### Проект api_yamdb
 
