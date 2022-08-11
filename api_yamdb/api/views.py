@@ -49,7 +49,7 @@ class UserViewSet(viewsets.ModelViewSet):
             serializer.is_valid(raise_exception=True)
             serializer.save()
             return Response(serializer.data, status=status.HTTP_200_OK)
-        return user
+        return 'Это сообщение пользователь никогда не увидит!'
 
 
 @api_view(['POST'])
@@ -81,7 +81,7 @@ def sign_up(requset):
             [f'{email}'],
         )
         return Response(serializers.data, status=status.HTTP_200_OK)
-    return 'Test flake8'
+    return 'Это сообщение пользователь никогда не увидит!'
 
 
 @api_view(['POST'])
