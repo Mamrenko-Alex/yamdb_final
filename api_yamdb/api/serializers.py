@@ -24,11 +24,10 @@ class UserSerializer(serializers.ModelSerializer):
 
     def create(self, validated_data):
         confirmation_code = uuid4()
-        user = User.objects.create(
+        return User.objects.create(
             **validated_data,
             confirmation_code=confirmation_code
         )
-        return user
 
     def validate_username(self, name):
         if name == 'me':
