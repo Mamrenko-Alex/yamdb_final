@@ -94,3 +94,10 @@ GET /api/v1/genres/ - Список всех жанров
 GET /api/v1/titles/ - Список всех произведений
 GET /api/v1/titles/{title_id}/reviews/ - Список всех отзывов
 GET /api/v1/titles/{title_id}/reviews/{review_id}/comments/ - Список всех комментариев к отзыву
+```
+
+### Адрес сервера с работающим приложением
+
+  - http://мой_ip/api/v1/
+  - http://мой_ip/admin
+  - http://мой_ip/redoc
