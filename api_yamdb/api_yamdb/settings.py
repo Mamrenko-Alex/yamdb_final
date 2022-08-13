@@ -13,7 +13,7 @@ SECRET_KEY = os.getenv('SECRET_KEY', default='key')
 DEBUG = False
 
 ALLOWED_HOSTS = [
-    '51.250.96.143',
+    '51.250.98.88',
 ]
 
 
@@ -102,7 +102,7 @@ USE_L10N = True
 USE_TZ = True
 
 
-STATIC_URL = 'api_yamdb/static/'
+STATIC_URL = '/static/'
 
 # STATICFILES_DIRS = (os.path.join(BASE_DIR, 'static/'),)
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
