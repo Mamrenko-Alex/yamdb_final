@@ -98,6 +98,6 @@ GET /api/v1/titles/{title_id}/reviews/{review_id}/comments/ - Список вс�
 
 ### Адрес сервера с работающим приложением
 
-  - http://мой_ip/api/v1/
-  - http://мой_ip/admin
-  - http://мой_ip/redoc
+  - http://84.252.142.120/api/v1/
+  - http://84.252.142.120/admin
+  - http://84.252.142.120/redoc
