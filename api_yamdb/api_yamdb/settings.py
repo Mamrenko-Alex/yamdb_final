@@ -16,6 +16,7 @@ ALLOWED_HOSTS = [
     '158.160.1.230',
     '127.0.0.1',
     'localhost',
+    'web',
 ]
 
 
